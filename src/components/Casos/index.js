@@ -38,7 +38,6 @@ const getConfig = data => ({
     },
 
 
-
     series: [{
         name: 'Casos',
         data: data.confirmados
@@ -169,7 +168,7 @@ class Casos extends Component {
 
                                 <div class="col-md-12 mb-4">
                                 <select class="custom-select mr-sm-2" value={this.state.cidadeAtual}  onChange={this.getCidades}>
-                                    <option selected value='todos'>ESTADO DO AMAPÁ ou Escolha uma cidade</option>
+                                    <option defaultValue value='todos'>ESTADO DO AMAPÁ ou Escolha uma cidade</option>
                                     {cidades.map(cidade => (
                                         <option value={cidade}>{cidade}</option>
 
