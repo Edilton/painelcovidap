@@ -1,3 +1,7 @@
+# painelcovidap
+Gráfico com casos de covid-19 no Amapá
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
